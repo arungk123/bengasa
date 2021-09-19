@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Frames</title>
+   </head>
+
+<frameset frameborder="no"  rows = "85, *">
+	
+	<frame scrolling="no" name = "head" src = "heading.html" />
+
+		<frameset frameborder="no" cols = "135, *" noresize = "noresize">
+ 
+			<frame name = "menu" src = "menu.html" scrolling="no" />
+
+
+  	    		<frame name = "main" src = "imageslide.html" scrolling="yes" />
+			<!--<frame scrolling="no" name = "head" src = "dropdownMenu.html" />-->
+ 		
+ <noframes>
+         <body>Your browser does not support frames.</body>
+      </noframes>
+
+</frameset>
+
+   
+</html>
